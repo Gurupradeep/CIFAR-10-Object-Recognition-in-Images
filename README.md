@@ -3,3 +3,6 @@ Implementing and comparing performance of various deep learning models on CIFAR-
 
 Models compared
 1. Wide Residual Network
+2. ResNet
+3. VGG
+
