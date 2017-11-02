@@ -6,3 +6,5 @@ Models compared
 2. ResNet
 3. VGG
 
+
+## TODO : Installation, Quick start, Procedure followed and Comparison of various models.
