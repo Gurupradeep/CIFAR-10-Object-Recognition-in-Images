@@ -59,4 +59,9 @@ It opens up all the notebooks which are there in the directory in the browser.
 * Wide_Residual_Network.ipynb contains the implementaion of Wide residual Networks
 * SimpleCNN.ipynb contains code of a simple CNN which gives more than 90 percent accuracy on cifar-10.
 
+# Procedure followed 
+* ResNet and Wide residual models have been trained from scratch
+* VGG is trained with the help of transfer learning. Here the models weights are initialised with ones obtained from training on ImageNet
+* All the hyperparameters are kept constant for all the models while training.
+
 ## TODO : Quick start, Procedure followed and Comparison of various models.
