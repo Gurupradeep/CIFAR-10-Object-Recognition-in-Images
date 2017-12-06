@@ -45,5 +45,18 @@ This package facilitates the creation and rendering of graph descriptions in the
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text
 * Refer following link for installation instructions https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jupyter-notebook-to-run-ipython-on-ubuntu-16-04
 
+# Quick start
+
+Run the following commands in Terminal. 
+
+    git clone https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images.git
+    cd CIFAR-10-Object-Recognition-in-Images
+    cd Models
+    jupyter notebook
+It opens up all the notebooks which are there in the directory in the browser.
+* ResNet.ipynb Contains the implementation code of ResNet
+* VGG16.ipynb Contains the implementation code of VGG 
+* Wide_Residual_Network.ipynb contains the implementaion of Wide residual Networks
+* SimpleCNN.ipynb contains code of a simple CNN which gives more than 90 percent accuracy on cifar-10.
 
 ## TODO : Quick start, Procedure followed and Comparison of various models.
