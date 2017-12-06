@@ -64,4 +64,24 @@ It opens up all the notebooks which are there in the directory in the browser.
 * VGG is trained with the help of transfer learning. Here the models weights are initialised with ones obtained from training on ImageNet
 * All the hyperparameters are kept constant for all the models while training.
 
-## TODO : Quick start, Procedure followed and Comparison of various models.
+# Comparison of Various Models
+
+## Summary
+* The difference between the time taken by the VGG to train with and without transfer learning is huge.
+* Wide residual networks gives better results in lesser time compared to ResNet.
+* And proved that with the help of Simple CNN we can achieve good results with proper hyper parameter tuning and regularization techniques.
+
+**WRN-16-10 Performance**
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/WRN_accuracy.png" height=75% width=100%>
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/WRN_loss.png" height=75% width=100%>
+
+**ResNet-50 Performance**
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/resnet2_accuracy.png" height=75% width=100%>
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/resnet2_loss.png" height=75% width=100%>
+
+**ResNet50 vs WRN-16-10**
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/ResNet_vs_WRN_val_acc.png" height=75% width=100%>
+<img src="https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/blob/master/Plots/ResNet_vs_WRN_val_loss.png" height=75% width=100%>
+
+- **Other plots of individual models and comparisons can be found [here](https://github.com/Gurupradeep/CIFAR-10-Object-Recognition-in-Images/tree/master/Plots)**
+
